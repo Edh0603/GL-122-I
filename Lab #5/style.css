@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+
+.imagen{
+    width: 150px;
+    height: 200px;
+}
+
+.experiencia{
+    padding-left: 0px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.experiencia li{
+    margin-top: 15px;
+    list-style-position: inside;
+}
+
+.experiencia p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.conocimientos{
+    padding-left: 0px;
+    margin-left: 44%;
+    margin-right: 44%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.conocimientos li{
+    list-style-position: inside;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px double black;
+}
+
+.educacion .title-table td{
+    background-color: green;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.educacion tr td{
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.datos tr .espec{
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.datos tr td{
+    background-color: orange;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.referencias .title-table td{
+    background-color: purple;
+    border: 1px solid black;
+    padding: 8px;
+    color: white;
+}
+
+.referencias tr td{
+    background-color: rgb(226, 166, 226);
+    border: 1px solid black;
+    padding: 8px;
+}

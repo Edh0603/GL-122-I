@@ -4,74 +4,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida - Bryan Avila</title>
+    <style type="text/css">
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+        background-color: skyblue;
+        text-align: center;
+    }
+    
+    h1{
+        margin-top: 21.44px;
+    }
+
+    .imagen{
+        width: 150px;
+        height: 200px;
+    }
+       
+    .conocimientos{
+        padding-left: 0px;
+        margin-left: 44%;
+        margin-right: 44%;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+    }
+    
+    .conocimientos li{
+        list-style-position: inside;
+    }
+    
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px double black;
+    }
+    
+    .educacion .title-table td{
+        background-color: green;
+        border: 1px solid black;
+        padding: 8px;
+    }
+    
+    .educacion tr td{
+        background-color: lightgreen;
+        border: 1px solid black;
+        padding: 8px;
+    }
+    
+    .datos tr .espec{
+        background-color: orangered;
+        border: 1px solid black;
+        padding: 8px;
+    }
+    
+    .datos tr td{
+        background-color: orange;
+        border: 1px solid black;
+        padding: 8px;
+    }
+    
+    .referencias .title-table td{
+        background-color: purple;
+        border: 1px solid black;
+        padding: 8px;
+        color: white;
+    }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Bryan Ameth Ávila</h1>
-        <img src="imagen de bryan.jpg" width="150" height="200">
-        <hr>
-        <h2>Experiencia</h2>
-        <hr>
-        <h2>Educación</h2>
-        <table>
-            <thead>
-                <td>Años</td>
-                <td>Instituto Educativo</td>
-            </thead>
-            <tr>
-                <td>2020 - actual</td>
-                <td>Universidad Tecnológica de Panamá</td>
-            </tr>
-            <tr>
-                <td>2014-2019</td>
-                <td>Escuela Bilingue Saint John - Bachiller en Ciencias</td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Conocimientos</h2>
-        <ul>
-            <li>VBA</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>SQL</li>
-            <li>Sony Vegas</li>
-            <li>Photoshop</li>
-        </ul>
-        <hr>
-        <h2>Datos Generales</h2>
-        <table>
-            <tr>
-                <td>Cédula</td>
-                <td>4-815-215</td>
-            </tr>
-            <tr>
-                <td>Número de Teléfono</td>
-                <td>6406-2186</td>
-            </tr>
-            <tr>
-                <td>Correo Electrónico</td>
-                <td>bryan.avila@utp.ac.pa</td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Referencias</h2>
-        <table>
-            <thead>
-                <td>Nombre</td>
-                <td>Ocupación</td>
-                <td>Correo Electrónico</td>
-                <td>Número de Teléfono</td>
-            </thead>
-        </table>
-        <hr>
-        <footer>
-            <h3>Hoja de vida de mis compañeros</h3>
-            <a href="cvb.html">Hoja de Vida - Bryan Ávila</a>
-            <br>
-            <a href="cve.html">Hoja de Vida - Edson Hervey</a>
-            <br>
-            <a href="cvj.html">Hoja de Vida - José Liao</a>
-        </footer>
-    </center>
+    <h1>Bryan Ameth Ávila</h1>
+    <img class="imagen" src="imagen de bryan.jpg">
+    <hr>
+    <h2>Experiencia</h2>
+    <hr>
+    <h2>Educación</h2>
+    <table class="educacion">
+        <thead class="title-table">
+            <td>Años</td>
+            <td>Instituto Educativo</td>
+        </thead>
+        <tr>
+            <td>2020 - actual</td>
+            <td>Universidad Tecnológica de Panamá</td>
+        </tr>
+        <tr>
+            <td>2014-2019</td>
+            <td>Escuela Bilingue Saint John - Bachiller en Ciencias</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Conocimientos</h2>
+    <ul class="conocimientos">
+        <li>VBA</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>SQL</li>
+        <li>Sony Vegas</li>
+        <li>Photoshop</li>
+    </ul>
+    <hr>
+    <h2>Datos Generales</h2>
+    <table class="datos">
+        <tr>
+            <td class="espec">Cédula</td>
+            <td>4-815-215</td>
+        </tr>
+        <tr>
+            <td class="espec">Número de Teléfono</td>
+            <td>6406-2186</td>
+        </tr>
+        <tr>
+            <td class="espec">Correo Electrónico</td>
+            <td>bryan.avila@utp.ac.pa</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Referencias</h2>
+    <table class="referencias">
+        <thead class="title-table">
+            <td>Nombre</td>
+            <td>Ocupación</td>
+            <td>Correo Electrónico</td>
+            <td>Número de Teléfono</td>
+        </thead>
+    </table>
+    <hr>
+    <footer>
+        <h3>Hoja de vida de mis compañeros</h3>
+        <a href="cvb.html">Hoja de Vida - Bryan Ávila</a>
+        <br>
+        <a href="cve.html">Hoja de Vida - Edson Hervey</a>
+        <br>
+        <a href="cvj.html">Hoja de Vida - José Liao</a>
+    </footer>
 </body>
 </html>

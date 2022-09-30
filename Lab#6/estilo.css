@@ -4,7 +4,7 @@
 
 body{
     margin: 0px;
-    background-color: #f4f4f4;
+    background-color: rgb(240, 244, 246);
     margin-top: 75px;
 }
 
@@ -90,6 +90,17 @@ header{
     text-decoration: underline;
 }
 
+#instrucciones{
+
+position:absolute;
+text-align: center;
+
+    
+}
+
+#instrucciones-h1{
+    text-align: center;
+}
 .articulos{
     display: flex;
 }
@@ -107,6 +118,7 @@ header{
     padding: 15px;
     margin: 25px;
 }
+
 
 .articulos-titulo{
     margin: 0px;
@@ -151,6 +163,9 @@ header{
     font-size: 30px;
 }
 
+footer{
+    background-color: aliceblue;
+}
 .footer-img{
     height: 150px;
     width: 150px;

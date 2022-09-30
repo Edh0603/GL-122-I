@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: aliceblue;
+    background-color: skyblue;
     height: 75px;
     position: fixed;
     width: 100%;
@@ -23,8 +23,8 @@ header{
 .logo{
     width: 95px;
     height: 25px;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .header-item-l{
@@ -46,7 +46,7 @@ header{
     width: 25px;
     border: 0px;
     margin: 0%;
-    background-color:skyblue;
+    background-color:aliceblue;
     border-color: skyblue;
 }
 
@@ -65,7 +65,7 @@ header{
     margin-right: 5px;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
-    background-color: skyblue;   
+    background-color: aliceblue;   
      
 }
 
@@ -94,13 +94,16 @@ header{
 
 position:absolute;
 text-align: center;
-
-    
+   
 }
 
-#instruccion-ul{
-    list-style: none;
+#instrucciones-div{
+ background-color: aliceblue;
+
+
+ 
 }
+
 
 #instrucciones-h1{
     text-align: center;
@@ -132,7 +135,7 @@ text-align: center;
 
 .articulos-fecha{
     font-size: 10px;
-    color: gainsboro;
+    color: black;
     margin: 0px;
     margin-left: 5px;
 }
@@ -168,7 +171,7 @@ text-align: center;
 }
 
 footer{
-    background-color: aliceblue;
+    background-color: skyblue;
 }
 .footer-img{
     height: 150px;

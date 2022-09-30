@@ -137,6 +137,7 @@ header{
 	position: relative;
     display: inline-block;
     text-align: center;
+    width: 75%;
     opacity: 0.8;
 }
 

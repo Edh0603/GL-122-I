@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="formulario_css.css">
+    <title>Document</title>
 </head>
 <body>
     <div id="formulario">
-        <h1 style="text-align: center">Formulario Autovalidado</h1>
+        <h1 style="text-align: center">Formulario CV</h1>
         <br><br>
-        <form action="menu.html" method="post">
+        <form action="cv.jsp" method="post">
             <ul>
              <li>
                <label for="name">Nombre completo:</label>
-               <input type="text" id="name" name="user_name" title="Escriba su nombre." required>
+               <input type="text" id="name" name="name" title="Escriba su nombre." required>
              </li>
              <br>
              <li>
@@ -29,28 +28,28 @@
              </li>
              <br>
              <li>
-                <label for="educacion">Conocimientos:</label>
+                <label for="conocimientos">Conocimientos:</label>
                 <input type="text" name="conocimientos" id="conocimientos" title="Separe sus conocimientos con una coma (,)" required>
               </li>
               <br>
              <li>
                 <label for="mail">Correo electrónico:</label>
-                <input type="email" placeholder="sophie@example.com" id="mail" name="user_mail"  required title="Escriba un correo electrónico valido para enviarle la cotizacion.">
+                <input type="email" placeholder="sophie@example.com" id="mail" name="mail"  required title="Escriba un correo electrónico valido para enviarle la cotizacion.">
               </li>
               <br>
              <li>
-                <label for="name">Telefono:</label>
-                <input type="tel" id="name" name="user_name" required pattern="[6][0-9]{7}" title="Escriba un numero de telefono celular." >
+                <label for="tel">Telefono:</label>
+                <input type="tel" id="tel" name="tel" required pattern="[6][0-9]{7}" title="Escriba un numero de telefono celular." >
               </li>
               <br>
                <li>
-                 <label for="educacion">Datos Generales:</label>
-                 <input type="text" name="datosgenerales" id="datosg" title="Separe sus datos con una coma (,)" required>
+                 <label for="datosg">Datos Generales:</label>
+                 <input type="text" name="datosg" id="datosg" title="Separe sus datos con una coma (,)" required>
                </li>
                <br>
                <li>
-                  <label for="educacion">Referencias:</label>
-                  <input type="text" name="Referencias" id="Referencias" title="Separe sus referencias con una coma (,)" required>
+                  <label for="referencias">Referencias:</label>
+                  <input type="text" name="referencias" id="referencias" title="Separe sus referencias con una coma (,)" required>
                 </li>
                 <br>
               <h4 style="text-align:center;">Cuanto es 3+5?</h4>
@@ -62,10 +61,9 @@
                 </li>
               <br>
               <li>
-                <input type="submit" id="name" name="user_name" value="Enviar">
+                <input type="submit" value="Enviar">
               </li>
             </ul>
            </form>
 </body>
 </html>
-

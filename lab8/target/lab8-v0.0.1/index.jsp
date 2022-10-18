@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="formulario">
@@ -16,14 +15,6 @@
              <li>
                <label for="name">Nombre completo:</label>
                <input type="text" id="name" name="name" title="Escriba su nombre." required>
-             </li>
-             <br>
-             <li>
-              <h4>Género:</h4>
-              <input type="checkbox" name="genero" value="Hombre">
-              <label for="genero">Hombre</label>
-              <input type="checkbox" name="genero" value="Mujer">
-              <label for="genero">Mujer</label>
              </li>
              <br>
              <li>
@@ -51,6 +42,11 @@
                 <input type="tel" id="tel" name="tel" required pattern="[6][0-9]{7}" title="Escriba un numero de telefono celular." >
               </li>
               <br>
+               <li>
+                 <label for="datosg">Datos Generales:</label>
+                 <input type="text" name="datosg" id="datosg" title="Separe sus datos con una coma (,)" required>
+               </li>
+               <br>
                <li>
                   <label for="referencias">Referencias:</label>
                   <input type="text" name="referencias" id="referencias" title="Separe sus referencias con una coma (,)" required>

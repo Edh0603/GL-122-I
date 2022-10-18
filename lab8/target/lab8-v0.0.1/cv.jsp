@@ -31,20 +31,13 @@
     <p><%= conocimientos%></p>
     <hr>
     <h2>Datos Generales</h2>
-    <table>
-        <tr>
-            <td>Cédula</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Teléfono</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Correo Electrónico</td>
-            <td></td>
-        </tr>
-    </table>
+    <p><%= datosg%></p>
+    <hr>
+    <h2>Telefono</h2>
+    <p><%= tel%></p>
+    <hr>
+    <h2>E-mail</h2>
+    <p><%= email%></p>
     <hr>
     <h2>Referencias</h2>
     <p><%= referencias%></p>

@@ -7,7 +7,7 @@
     String email = request.getParameter("mail");
     String tel = request.getParameter("tel");
     String datosg = request.getParameter("datosg");
-    String referencias = request.getParameter("referencia");
+    String referencias = request.getParameter("referencias");
 %>
 
 <!DOCTYPE html>
@@ -35,19 +35,19 @@
     <h2>Datos Generales</h2>
     <table>
         <tr>
-            <td>Cedula</td>
+            <td>Cedula:</td>
             <td><%= cedula%></td>
         </tr>
         <tr>
-            <td>Genero</td>
+            <td>Genero:</td>
             <td><%= genero%></td>
         </tr>
         <tr>
-            <td>Telefono</td>
+            <td>Telefono:</td>
             <td><%= tel%></td>
         </tr>
         <tr>
-            <td>Correo Electronico</td>
+            <td>Correo Electronico:</td>
             <td><%= email%></td>
         </tr>
     </table>

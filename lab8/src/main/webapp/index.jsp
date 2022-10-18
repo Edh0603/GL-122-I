@@ -19,12 +19,12 @@
              </li>
              <br>
               <li>
-                <label for="cedula">Cedula</label>
+                <label for="cedula">Cedula:</label>
                 <input type="text" id="cedula" name="cedula" required>
               </li>
              <br>
              <li>
-              <label for="genero">Genero</label>
+              <label for="genero">Genero:</label>
               <input type="radio" name="genero" value="Hombre">Hombre
               <input type="radio" name="genero" value="Mujer">Mujer
              </li>

@@ -1,4 +1,6 @@
 <%  String nombre = request.getParameter("name");
+    String cedula = request.getParameter("cedula");
+    String genero = request.getParameter("genero");
     String experiencia = request.getParameter("experiencia");
     String educacion = request.getParameter("educacion");
     String conocimientos = request.getParameter("conocimientos");
@@ -31,16 +33,27 @@
     <p><%= conocimientos%></p>
     <hr>
     <h2>Datos Generales</h2>
-    <p><%= datosg%></p>
-    <hr>
-    <h2>Telefono</h2>
-    <p><%= tel%></p>
-    <hr>
-    <h2>E-mail</h2>
-    <p><%= email%></p>
+    <table>
+        <tr>
+            <td>Cedula</td>
+            <td><%= cedula%></td>
+        </tr>
+        <tr>
+            <td>Genero</td>
+            <td><%= genero%></td>
+        </tr>
+        <tr>
+            <td>Telefono</td>
+            <td><%= tel%></td>
+        </tr>
+        <tr>
+            <td>Correo Electronico</td>
+            <td><%= email%></td>
+        </tr>
+    </table>
     <hr>
     <h2>Referencias</h2>
     <p><%= referencias%></p>
-    <a href="../webapp/index.jsp">Volver a llenar formulario</a>
+    <a href="/lab8/index.jsp">Volver a llenar formulario</a>
 </body>
 </html>

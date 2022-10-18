@@ -18,12 +18,15 @@
                <input type="text" id="name" name="name" title="Escriba su nombre." required>
              </li>
              <br>
+              <li>
+                <label for="cedula">Cedula</label>
+                <input type="text" id="cedula" name="cedula" required>
+              </li>
+             <br>
              <li>
-              <h4>Género:</h4>
-              <input type="checkbox" name="genero" value="Hombre">
-              <label for="genero">Hombre</label>
-              <input type="checkbox" name="genero" value="Mujer">
-              <label for="genero">Mujer</label>
+              <label for="genero">Genero</label>
+              <input type="radio" name="genero" value="Hombre">Hombre
+              <input type="radio" name="genero" value="Mujer">Mujer
              </li>
              <br>
              <li>
@@ -42,7 +45,7 @@
               </li>
               <br>
              <li>
-                <label for="mail">Correo electrónico:</label>
+                <label for="mail">Correo electronico:</label>
                 <input type="email" placeholder="sophie@example.com" id="mail" name="mail"  required title="Escriba un correo electrónico valido para enviarle la cotizacion.">
               </li>
               <br>
@@ -60,7 +63,7 @@
               <br>
                 <li>
                     <label for="captcha">Captcha:</label>
-                    <input type="text" id="referencia" name="referencia" required pattern="[8]"
+                    <input type="text" required pattern="[8]"
                     title="Debe escribir la respuesta del captcha."/>
                 </li>
               <br>

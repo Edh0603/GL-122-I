@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6643acadb7.js" crossorigin="anonymous"></script>
 </head>
   <body>
     <header class="banner">
@@ -15,7 +16,7 @@
             <ul class="nav-menu">
                 <li class="menu-items"><a href="">Inicio</a></li>
                 <li class="menu-items"><a href="#Menú">Menú</a></li>
-                <li class="menu-items"><a href="#Contáctcanos">Contáctanos</a></li>
+                <li class="menu-items"><a href="#Contactanos">Contáctanos</a></li>
             </ul>
             <hr>
         </nav>
@@ -44,51 +45,68 @@
             <button class="button">Leer Más...</button>
         </section>
     </header>
-
     <section class="section1" id="Menú">
         <div class="div1 div1_1">
             <div class="div2">
                 <article>
                     <div>
                         <img src="../img/plato1.jpg"  alt="" class="imagen"></div>
-                    <header>
                         <h3 class="info_art">Salmón con trigueros y judías blancas
                             <br>
                             Desayuno Nutritivo
                         </h3>
-                    </header>
                     <p class="parraf_art">
                         Una buena opción para empezar el día de manera nutritiva
                         <br>
                         sin perder ese sabor y nutrientes exclusivos del salmón
                     </p>
-                    <footer>
                         <button class="button">Leer Más...</button>
-                    </footer>
                 </article>
-                
                 <article>
                     <div><img src="../img/plato2.jpg" alt="" class="imagen"></div>
-                    <header>
                         <h3 class="info_art">Champiñones con cuscús, limón y menta
                             <br>
                             Almuerzo Nutritivo
                         </h3>
-                    </header>
                     <p class="parraf_art">
                         Una ensalada fresca, perfecta cuando aún te persiguen los excesos navideños, 
                         <br>
                         pero no quieres renunciar a un plato lleno de sabor.
                     </p>
-                    <footer>
                         <button class="button">Leer Más...</button>
-                    </footer>
                 </article>
             </div>
         </div>
-        
     </section>
+    <footer id="Contactanos">
+    <div class="interior">
+        <h3>Contáctanos</h3>
+        <form action="#" method="post">
+            <div class="flex">
+            <div class="mitad1">
+                <label for="Nombre">Nombre</label>
+                <input name="Nombre" id="nombre" type="text" placeholder="Nombre">
+            </div>
+            <div class="medio">
+                <label for="email"> Email </label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+             </div>
+            <div class="abajo">
+                <label for="mensaje"> Mensaje </label>
+                <textarea placeholder="Mensaje" type="text"  name="mensaje" id="mensaje" rows="7" ></textarea>
+            </div>
 
-
+            <ul class="submit">
+                <li>
+                    <input value="      Enviar       " class="button alt" type="submit">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>GL122-l</b> - Todos los Derechos Reservados.</small>
+  </div>
+    </footer> 
   </body>
 </html>

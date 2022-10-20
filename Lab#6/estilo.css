@@ -1,0 +1,171 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(240, 244, 246);
+    margin-top: 75px;
+}
+
+header{
+    background-color: skyblue;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    border-bottom: 2px;
+    padding-bottom: 15px;
+    z-index: 100;
+}
+
+.logo{
+    width: 95px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-item-l{
+    float: left;
+    width: 80px;
+    height: 70px;
+    border: 0ch;
+    background-color: aliceblue;
+
+}
+
+.header-item-r{
+    float: right;
+    border-color: black;
+}
+
+.icons{
+    height: 25px;
+    width: 25px;
+    border: 0px;
+    margin: 0%;
+    background-color:aliceblue;
+    border-color: skyblue;
+}
+
+.barrita{
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.barrita-items{
+    float: left;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    border: 3px;
+    margin-right: 5px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+.icons:hover{
+    background-color: aqua;
+}
+
+.barrita-items:hover{
+    background-color: aqua;
+}
+
+.barrita-items a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.barrita-items a:hover{
+    text-decoration: underline;
+}
+
+#instrucciones{
+position:absolute;
+text-align: center;
+}
+
+#instrucciones-div{
+ background-color: aliceblue;
+}
+
+#instrucciones-h1{
+    text-align: center;
+}
+.articulos{
+    display: flex;
+}
+
+.articulos-conten{
+    flex-wrap: wrap;
+}
+
+.articulos-img{
+    height: 150px;
+    width: 150px;
+}
+
+.articulos-size{
+    padding: 15px;
+    margin: 25px;
+}
+
+.articulos-titulo{
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.articulos-fecha{
+    font-size: 10px;
+    color: black;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.articulos-descrip{
+    font-size: 13px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+}
+
+.fondo {
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    opacity: 0.8;
+}
+
+.centreado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+footer{
+    background-color: skyblue;
+}
+
+.footer-img{
+    height: 150px;
+    width: 150px;
+}
+
+.footer-sepa{
+    display: flex;
+    justify-content: space-between;
+}

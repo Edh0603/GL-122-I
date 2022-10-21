@@ -120,6 +120,10 @@ body {
     color: white;
 }
 
+article {
+    width: 43%;
+}
+
 .div1 {
     max-width: 75em;
     margin: 0 auto;
@@ -269,26 +273,11 @@ input[type="submit"]:hover {
     font-size: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .nav-menu {
         display: none;
     }
 
-    .div1_1 {
-        max-width: 90%;
-    }
-    
-    article {
-        margin-bottom: 10%;
-    }
-
-    .interior {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-}
-
-@media screen and (max-width: 1000px) {
     .content {
         display: none;
     }
@@ -297,23 +286,30 @@ input[type="submit"]:hover {
         display: none;
     }
 
-    article {
-        margin-bottom: 10%;
+    .div1_1 {
+        max-width: 90%;
     }
-
+    
     .div2 {
+        display: flex;
         justify-content: center;
     }
 
-    .interior {
-        margin-left: 3%;
-        margin-right: 3%;
+    article {
+        margin-bottom: 10%;
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1024px) {
     .div2 {
-        justify-content: space-between;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1280px) {
+    article {
+        width: auto;
     }
     
     .interior {

@@ -108,7 +108,7 @@ body {
     background-color: white;
 }
 
-.section1{
+.section1 {
     text-align: center;
     display: block;
     padding: 6em;
@@ -120,7 +120,7 @@ body {
     color: white;
 }
 
-.div1{
+.div1 {
     max-width: 75em;
     margin: 0 auto;
     display: block;
@@ -128,7 +128,7 @@ body {
     box-sizing: border-box;
 }
 
-.div2{
+.div2 {
     justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
@@ -136,35 +136,35 @@ body {
     vertical-align: baseline;
 }
 
-.imagen{
-        border-radius: 50%;
-        border: 0;
-        display: inline-block;
-        position: relative;
-        height: 150px;
-        width: 150px;
+.imagen {
+    border-radius: 50%;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 150px;
 }
 
-.info_art{
-        font-size: 1.75em;
-        color: #555;
-        font-weight: 400;
-        line-height: 1.5;
-        margin: 0 0 1em 0;
+.info_art {
+    font-size: 1.75em;
+    color: #555;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
 }
 
-.parraf_art{
-        margin: 0 0 2em 0;
-        text-align: center;
-        font-weight: 400;
-        line-height: 1.5;
+.parraf_art {
+    margin: 0 0 2em 0;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
-form{
+form {
     align-items: center;   
 }
 
-form .mitad1{
+form .mitad1 {
     width: 50%;
     margin-right: 3%;
 }
@@ -201,6 +201,7 @@ footer{
     padding: 0%;
 
 }
+
 #Contactanos{
     margin: 0;
     padding: 6em 0;
@@ -233,7 +234,7 @@ input[type="text"], input[type="email"] {
     height: 2.75em;
 }
 
-input[type="text"],input[type="email"], textarea{
+input[type="text"],input[type="email"], textarea {
 	background: #FF8A8A;
 	border-radius: 10px;
 	border: solid 2px rgb(249, 202, 202);
@@ -268,7 +269,7 @@ input[type="submit"]:hover {
     font-size: 10px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .nav-menu {
         display: none;
     }
@@ -287,7 +288,7 @@ input[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .content {
         display: none;
     }

@@ -1,0 +1,319 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 940px;
+}
+
+.menu {
+    margin: 0 5% 0 5%;
+}
+
+.logo {
+    height: 100px;
+    margin: 16px 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+    float: right;
+}
+
+.menu-items {
+    float: left;
+    text-decoration: none;
+    margin-top: 16px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.menu-items a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-items a:hover {
+    text-decoration: underline;
+}
+
+.banner-content {
+    text-align: center;
+    margin: 1% 5% 5% 5%;
+}
+
+.title {
+    color: white;
+    font-size: 56px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.column {
+    width: 27.5%;
+    border-left: 1px solid whitesmoke;
+}
+
+.column h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.column span {
+    color: lightgray;
+}
+
+#primera-columna {
+    border-left: none;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.button {
+    background: none;
+    border: 3px solid #FF8A8A;
+    border-radius: 20px;
+    color: #FF8A8A;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2%;
+    cursor:pointer;
+}
+
+.banner-content .button:hover {
+    background-color: white;
+}
+
+.section1 {
+    text-align: center;
+    display: block;
+    padding: 6em;
+    box-sizing: border-box;
+}
+
+.section1 .button:hover {
+    background-color: #FF8A8A;
+    color: white;
+}
+
+article {
+    width: 43%;
+}
+
+.div1 {
+    max-width: 75em;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.div2 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+.imagen {
+    border-radius: 50%;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.info_art {
+    font-size: 1.75em;
+    color: #555;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+.parraf_art {
+    margin: 0 0 2em 0;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+form {
+    align-items: center;   
+}
+
+form .mitad1 {
+    width: 50%;
+    margin-right: 3%;
+}
+
+form .mitad2 {
+    width: 50%;
+}
+
+.flex{
+   display: flex;
+   padding-bottom: 20px;
+}
+
+form .abajo{
+    width: 100%;
+}
+
+.interior {
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #fff;
+    color: #fff;
+    width: 150px;
+    margin-top: 0px;
+}
+
+footer{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#Contactanos{
+    margin: 0;
+    padding: 6em 0;
+    background: #FF8A8A;
+    color: #fff;
+    text-align: center;
+    font: inherit;
+    font-size: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+#Contactanos label {
+	display: block;
+	margin: 0 0 1em 0;
+    text-align: left;
+    color: #FFF;
+}
+
+.contact {
+    font-size: 1.75em;
+    font-weight: bold;
+    margin: 0 0 2em 0;
+    padding-top: 100px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 2.75em;
+}
+
+input[type="text"],input[type="email"], textarea {
+	background: #FF8A8A;
+	border-radius: 10px;
+	border: solid 2px rgb(249, 202, 202);
+	color: rgb(246, 221, 221);
+	outline: 0;
+	padding: 0 1em;
+	width: 100%;
+    margin-bottom: 20px;
+    font-size: 12pt;
+    cursor: text;
+}
+
+textarea {
+	padding: 0.75em 1em;
+}
+
+::placeholder {
+    color: rgb(249, 202, 202);
+}
+
+input[type="submit"]:hover {
+	background-color: rgba(240, 246, 243, 0.15);   
+}
+
+.grupo-2 {
+    text-align: center;
+    color: rgb(249, 202, 202);
+    padding-bottom: 100px;
+}
+        
+.grupo-2 small {
+    font-size: 10px;
+}
+
+@media (max-width: 500px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .banner-content button {
+        display: none;
+    }
+
+    .div1_1 {
+        max-width: 90%;
+    }
+    
+    .div2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    article {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .div2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1280px) {
+    article {
+        width: auto;
+    }
+    
+    .interior {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
